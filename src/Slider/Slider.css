@@ -1,0 +1,75 @@
+.tns-outer{
+  margin-bottom: 30px;
+}
+
+
+.tns-nav {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.tns-nav button {
+  margin: 0 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: rgb(0, 155, 219);
+  border: none;
+  outline: none;
+}
+
+.tns-nav button:hover {
+  background: rgb(51, 176, 227);
+}
+
+.tns-nav button.tns-nav-active {
+  background-color: black;
+}
+
+.slider-baner {
+  position: relative;
+}
+
+.text-in-img {
+  text-transform: uppercase;
+  font-weight: bold;
+  position: absolute;
+  font-size: 2em;
+  bottom: 7%;
+  left: 4vw;
+}
+
+.text-in-img.slider2 {
+  font-size: 3em;
+  color: white;
+}
+
+.footer-img {
+  background-color: rgb(0, 155, 219);
+  color: white;
+  padding: 15px 4vw;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.tns-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.scale {
+  overflow: hidden;
+}
+.scale img {
+  transition: 0.5s;
+  transform: scale(1.01);
+}
+
+.scale-back img {
+  transition: 0.5s;
+  transform: scale(1);
+}
+
+.change-color {
+  background-color: rgb(51, 176, 227);
+}

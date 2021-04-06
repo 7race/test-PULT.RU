@@ -1,0 +1,41 @@
+
+.wrapperWidgetLinks{
+    display: inline-flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+
+.widget{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wdgtLinks a {
+  display: inline-block;
+  color: rgb(0, 155, 219);
+  padding-bottom: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.wdgtLinks a.onMouseOver {
+    transition: 0.5s;
+    color: black;
+  }
+
+
+.imageItem{
+    width: 40vw;
+}
+
+@media (max-width: 1200px) {
+    .imageItem {
+      display: none;
+    }
+    .widget{
+        justify-content: center;
+        text-align: center;
+    }
+  }
+
